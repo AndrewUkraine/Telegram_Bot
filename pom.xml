@@ -16,7 +16,7 @@
                      <assembleDirectory>target</assembleDirectory>
                      <programs>
                          <program>
-                             <mainClass>src.main.java.SimpleBot</mainClass>
+                             <mainClass>SimpleBot</mainClass>
                              <name>Telegram_Bot</name>
                          </program>
                      </programs>
