@@ -17,7 +17,7 @@
                     <programs>
                         <program>
                             <mainClass>java.SimpleBot</mainClass>
-                            <name>simpleBot</name>
+                            <name>SimpleBot</name>
                         </program>
                     </programs>
                 </configuration>
