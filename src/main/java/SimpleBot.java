@@ -33,6 +33,8 @@ public class SimpleBot extends TelegramLongPollingBot {
     //fil in our chat
     private String answers = "";
     private String[] questions = {
+            "Как дела?",
+            "Ну у меня тоже все ОК",
             "Ты кто такой?",
             "И че?",
             "Как тебя кличут то?",
