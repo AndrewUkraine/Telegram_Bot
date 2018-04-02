@@ -16,8 +16,8 @@
                      <assembleDirectory>target</assembleDirectory>
                      <programs>
                          <program>
-                             <mainClass>java.SimpleBot</mainClass>
-                             <name>SimpleBot</name>
+                             <mainClass>src.main.java.SimpleBot</mainClass>
+                             <name>Telegram_Bot</name>
                          </program>
                      </programs>
                  </configuration>
@@ -32,10 +32,6 @@
              </plugin>
          </plugins>
      </build>
-
-
-
-
 
     <groupId>Telegram_Bot</groupId>
     <artifactId>Telegram_Bot</artifactId>
