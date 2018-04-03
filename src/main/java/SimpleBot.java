@@ -24,21 +24,20 @@ public class SimpleBot extends TelegramLongPollingBot {
 
 
     public String getBotUsername() {
-        return "andr17_bot";
+        return "Pushksolutionsbot";
     }
     public String getBotToken() {
-        return "487573927:AAESIxTXtzuI18Q6O0LpiRVOahu4MBBRO7Y";
+        return "586995962:AAEa9m2W4nCyH38MEtlBeJP3aMO0HURd5Xo";
     }
 
     //fil in our chat
     private String answers = "";
     private String[] questions = {
             "Как дела?",
-            "Ну у меня тоже все ОК",
-            "Ты кто такой?",
-            "И че?",
-            "Как тебя кличут то?",
-            "А мобила есть?"
+            "Ну у меня тоже все ОК. Как тебя зовут?",
+            "А меня Jack и я бот компании Push-K Solutions",
+            "Давай заполним бриф",
+            "Вообщем то спасибо тебе бро, вот наш сайт тебе на память: push-k.ua"
     };
 
 
@@ -75,7 +74,7 @@ public class SimpleBot extends TelegramLongPollingBot {
             }
             EmailSender emailSender = new EmailSender();
             emailSender.setMas(answers);
-            emailSender.sendMail("shatov@push-k.com.ua", "?????????", "andrii0938630809@gmail.com");
+            emailSender.sendMail("Jackbot@push-k.ua", "j7887j", "kosykh@push-k.com.ua");
             asked = -1;
         }
 
